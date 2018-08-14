@@ -21,14 +21,14 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
-define( 'WPCACHEHOME', '/Applications/MAMP/htdocs/tolmar/wp-content/plugins/wp-super-cache/' );
-define('DB_NAME', 'dev_db');
+define( 'WPCACHEHOME', 'C:\wamp64\www\AppliTolmar\tolmar\wp-content\plugins\wp-super-cache/' );
+define('DB_NAME', 'dbtolmar');
 
 /** MySQL database username */
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Tolmar33');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost:3306');
